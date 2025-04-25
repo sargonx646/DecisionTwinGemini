@@ -1,0 +1,18 @@
+[source: 1] streamlit==1.38.0
+requests==2.32.3
+python-dotenv==1.0.1
+wordcloud==1.9.3
+matplotlib==3.9.2
+pandas==2.2.2
+pytest==8.3.3
+pytest-mock==3.14.0
+tenacity==8.4.2
+openai>=1.0.0
+networkx>=3.3
+plotly>=5.24.1
+nltk==3.9.1
+# Removed gensim as it wasn't used directly in the provided analyzer
+scipy==1.13.1
+PyPDF2==3.0.1
+streamlit-agraph # Added for better network visualization
+bcrypt # Added for password hashing
